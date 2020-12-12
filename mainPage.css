@@ -62,7 +62,7 @@ ul li a {
 footer{
     width: 100%;
     background: #fff;
-    position: sticky;
+    /*position: sticky;*/
     text-align: center;
     padding: 10px 0 10px 0;
 }
@@ -108,7 +108,7 @@ footer a {
 .modal {
     position: relative;
     background-color: white;
-    width: 30%;
+    width: 25%;
     height: 55%;
     border: #0b4444 solid 1px;
     border-radius: 10px;
@@ -145,8 +145,15 @@ footer a {
     padding: 1px 2px;
 }
 
-@media (max-width:600px){
+@media (max-width:700px){
     input{
-        width:20%;
+        width:70%;
+    }
+    .modal{
+        width:60%;
+    }
+    .navbar-brand img{
+        width:15%;
+        height:26%;
     }
 }
