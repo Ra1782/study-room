@@ -1,0 +1,152 @@
+* {
+    outline: none;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px ;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #f4ae72;
+    min-height: 100vh;
+}  
+
+.navbar{
+    font-size:35px ;
+    background-color:#F09030;
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+
+
+.info {
+    background-color: #dcdcdc;
+    padding: 20px 0 20px 0;
+}
+.app-button {
+    padding: 12px;
+    background-color:#fcd667;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.app-button:hover{
+    background-color: #ffa500;
+}
+
+.login {   
+    width: 140px;
+}
+.registers button{
+    width: 250px;
+}
+.logins, .registers {
+    margin: 50px;
+}
+.mainPage {
+    background-color: #f4ae72;
+    padding: 50px 0px;
+}
+
+footer{
+    width: 100%;
+    background: #fff;
+    position: sticky;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bb6107;
+}
+
+ 
+.modal-bg-1 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0; 
+    transition: visibility 0.4s, opacity 0.8s;
+}
+.modal-bg-2 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0; 
+    transition: visibility 0.4s, opacity 0.8s;
+}
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+}
+.modal {
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: 55%;
+    border: #0b4444 solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.modal button {
+    padding: 10px 30px;
+    margin-bottom: 8px;
+    background-color: #f4ae72;
+    color: #0b4444;
+    border: #0b4444 solid 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.modal-close-1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 1px 2px;
+}
+.modal-close-2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 1px 2px;
+}
+
+@media (max-width:600px){
+    input{
+        width:20%;
+    }
+}
