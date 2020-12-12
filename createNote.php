@@ -74,7 +74,7 @@
         <table align="center" width="400" cellpadding = "10" cellspacing="2" >
         <tr>
           <td>Name</td>
-          <td> <input type="text" name ="name" placeholder="Enter Name of Task"></td>
+          <td> <input type="text" name ="name" placeholder="Enter Name "></td>
         </tr>
         <tr>
           <td >Enter the Theory</td>          
