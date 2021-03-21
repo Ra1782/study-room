@@ -1,9 +1,9 @@
 <?php
 
     $dbhost = 'localhost';  
-    $dbuser = 'id15650202_study_room';
-    $dbpass = 'RohanParasSahil@1234';
-    $dbname = 'id15650202_study_room_db';
+    $dbuser = 'hosted_db_username';
+    $dbpass = 'hosted_db_password';
+    $dbname = 'hosted_db_name';
 
     $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
     if(! $conn ) {
